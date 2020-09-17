@@ -5,10 +5,13 @@
   "repository": "https://github.com/fortune-cook1e/git-commit-test.git",
   "author": "fortune_cookie <767077147@qq.com>",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -w -r 0"
+  },
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
+    "conventional-changelog": "^3.1.23",
     "husky": "^4.3.0"
   },
   "husky": {
