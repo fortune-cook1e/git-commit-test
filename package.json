@@ -1,0 +1,27 @@
+{
+  "name": "git-commit-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/fortune-cook1e/git-commit-test.git",
+  "author": "fortune_cookie <767077147@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "commit": "cz",
+    "changelog":"./node_modules/.bin/commitizen init cz-conventional-changelog --save-dev --save-exact"
+  },
+  "devDependencies": {
+    "commitizen": "^4.2.1",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^4.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true"
+    }
+  }
+}
