@@ -1,6 +1,11 @@
 # 1.0.0 (2020-09-17)
 
 
+### Bug Fixes
+
+* **test:** 修改test.js ([99367e6](https://github.com/fortune-cook1e/git-commit-test/commit/99367e6db8a7350e91d9c864ee0799b003a93c72))
+
+
 ### Features
 
 * **src:** test commit ([95ed4ba](https://github.com/fortune-cook1e/git-commit-test/commit/95ed4ba6fcf2fec1275d355372f333df21fb42a4))
